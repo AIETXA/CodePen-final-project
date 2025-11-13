@@ -1,4 +1,40 @@
 body {
+    overflow-x: hidden;
+    overflow-y: auto;
+    margin: 0;
+   
+}
+
+.header {
     background-color: black;
     color: white;
+
+}
+
+.navbar {
+    height: 100px;
+    font-family: "Lato", sans-serif;
+    display: flex;
+    align-items: center;
+
+}
+
+.navbar > .first-column img {
+    width: 180px;
+    padding: 20px;
+
+}
+
+.navbar > .second-column {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    margin-bottom: 10px;
+
+}
+
+.second-column > .links-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
 }
