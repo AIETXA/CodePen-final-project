@@ -33,8 +33,53 @@ body {
 
 }
 
+.second-column > .explore {
+    color: #ffdd40;
+}
+
 .second-column > .links-wrapper {
     display: flex;
     justify-content: space-between;
     width: 350px;
+    font-family: "Lato", sans-serif;
+}
+
+.second-column > .links-wrapper > .nav-link a {
+    text-decoration: none;
+    color: white;
+    font-weight: 1000;
+}
+
+.second-column > .links-wrapper > .spark a {
+    text-decoration: none;
+    color: #c5c8d4;
+    font-weight: 400;
+    font-family: "Lato", sans-serif;
+
+}
+
+.third-column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 50px;
+
+}
+.third-column a {
+    text-decoration: none;
+    color: white;
+    padding: 12px;
+    background-color:hsl(227.37deg 12.26% 30.39%);
+    border-radius: 3px;
+    
+
+}
+
+.third-column i {
+    color: hsl(139.41deg 58.62% 54.51%);
+    font-size: 15px;
+    font-weight: bolder;
+    padding: 5px;
+   
 }
