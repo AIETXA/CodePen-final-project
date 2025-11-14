@@ -58,20 +58,26 @@ body {
 
 }
 
-.third-column {
+.navbar > .third-column {
     display: flex;
-    justify-content: center;
+    
+}
+
+.third-column {
+    justify-content: right;
     align-items: center;
     margin-top: 30px;
-    margin-left: 50px;
+    width: 300px;
+    
 
 }
 .third-column a {
     text-decoration: none;
     color: white;
     padding: 12px;
-    background-color:hsl(227.37deg 12.26% 30.39%);
+    background-color:hsl(228deg 12.2% 40.2%);
     border-radius: 3px;
+    font-weight: 800;
     
 
 }
@@ -82,4 +88,31 @@ body {
     font-weight: bolder;
     padding: 5px;
    
+}
+
+
+.fourth-column {
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
+    margin-top: 28px;
+}
+
+.fourth-column > .icon-lupa i {
+    font-size: 1.9em;
+    color: hsl(226.15deg 12.04% 57.65%);
+    margin-top: 5px;
+}
+    
+.fourth-column > .auth-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.fourth-column > .auth-buttons > .login, .sign {
+    background-color: hsl(228deg 12.2% 40.2%);
+    color: white;
+    border-radius: 3px;
+    font-weight: 600;
+    padding: 14px;
 }
