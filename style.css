@@ -5,6 +5,8 @@ body {
    
 }
 
+/*Style encabezado*/
+
 .header {
     background-color: black;
     color: white;
@@ -12,29 +14,30 @@ body {
 }
 
 .navbar {
-    height: 100px;
     font-family: "Lato", sans-serif;
     display: flex;
     align-items: center;
-
+    padding: 10px 5px 10px 15px;
 }
 
 .navbar > .first-column img {
     width: 180px;
-    padding: 20px;
-
 }
 
 .navbar > .second-column {
     display: flex;
     flex-direction: column;
-    padding: 40px;
-    margin-bottom: 10px;
+    margin-left: 50px;
+    
 
 }
 
 .second-column > .explore {
     color: #ffdd40;
+}
+
+.second-column > .explore p {
+    margin: unset;
 }
 
 .second-column > .links-wrapper {
@@ -55,7 +58,6 @@ body {
     color: #c5c8d4;
     font-weight: 400;
     font-family: "Lato", sans-serif;
-
 }
 
 .navbar > .third-column {
@@ -66,11 +68,10 @@ body {
 .third-column {
     justify-content: right;
     align-items: center;
-    margin-top: 30px;
-    width: 300px;
     
-
+    width: 300px;
 }
+
 .third-column a {
     text-decoration: none;
     color: white;
@@ -78,8 +79,6 @@ body {
     background-color:hsl(228deg 12.2% 40.2%);
     border-radius: 3px;
     font-weight: 800;
-    
-
 }
 
 .third-column i {
@@ -87,15 +86,13 @@ body {
     font-size: 15px;
     font-weight: bolder;
     padding: 5px;
-   
 }
-
 
 .fourth-column {
     display: flex;
     justify-content: space-evenly;
     width: 300px;
-    margin-top: 28px;
+    
 }
 
 .fourth-column > .icon-lupa i {
@@ -116,3 +113,6 @@ body {
     font-weight: 600;
     padding: 14px;
 }
+
+/*Style cuerpo*/
+
