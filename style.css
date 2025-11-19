@@ -29,6 +29,7 @@ body {
 .navbar > .second-column {
     display: flex;
     flex-direction: column;
+    gap: 2px;
     margin-left: 50px;
 }
 
@@ -58,6 +59,7 @@ body {
     color: #c5c8d4;
     font-weight: 400;
     font-family: "Lato", sans-serif;
+    padding-left: 20px;
 }
 
 .navbar > .third-column {
@@ -74,7 +76,7 @@ body {
 .third-column a {
     text-decoration: none;
     color: white;
-    padding: 12px;
+    padding: 12px 19px;
     background-color:hsl(226.67deg 7.69% 22.94%);
     border-radius: 3px;
     font-weight: 800;
@@ -85,6 +87,7 @@ body {
     font-size: 15px;
     font-weight: bolder;
     padding: 5px;
+    
 }
 
 .fourth-column {
@@ -97,12 +100,14 @@ body {
 .fourth-column > .icon-lupa i {
     font-size: 1.9em;
     color: hsl(226.15deg 12.04% 57.65%);
-    margin-top: 5px;
+    margin-top: 9px;
+    margin-left: -12px;
 }
     
 .fourth-column > .auth-buttons {
     display: flex;
     gap: 10px;
+    margin-right: -13px;
 }
 
 .fourth-column > .auth-buttons > .login, .sign {
@@ -110,7 +115,7 @@ body {
     color: white;
     border-radius: 3px;
     font-weight: 600;
-    padding: 14px;
+    padding: 14px 20px;
 }
 
 /*Style cuerpo*/
@@ -136,7 +141,7 @@ body {
     gap: 2rem;
     padding: 2rem 2rem;
     font-family:"Lato", sans-serif;
-
+    
 }
 
 .hero-left {
@@ -181,27 +186,48 @@ body {
 .btns > .green-btn {
     background-color: hsl(141.07deg 57.21% 55.1%);
     color: black;
+    font-size: 1.5em;
 }
 
 .btns > .black-btn {
     background-color: black;
     color: white;
+    font-size: 1.5em;
 }
 
 .hero-right {
     flex: 0 0 50%;
     color: white;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+   
 } 
 
+.text {
+    display: flex;
+    width: 300px;
+    justify-content: center;
+    
+}
 span.resaltado {
-    color: hsl(195.93deg 93.1% 65.88%);;
+    color: hsl(195.93deg 93.1% 65.88%);
 }
 
+.hero-right > .imagen {
+    display: flex;
+    justify-content: end;
+    margin-right: -5px;
+}
 .hero-right img {
-    width: 100%;
+    width: auto;
+    max-height: 460px;
     height: auto;
+    object-fit: cover; 
     display: block;
-    margin-right: 0px;
+    box-shadow: #b7b9c0;
+  
 }
 
 /*Footer*/
@@ -210,15 +236,15 @@ footer {
     width: 100%;
     background-color:hsl(226.67deg 7.69% 22.94%);
     border-block: 1px solid white;
+    margin-top: -30px;
 }
+
 .footer-content {
-    
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(4, minmax(200px, 1fr));
     align-items: center;
     justify-content: space-between;
-    
 }
 
 .footer-content > * {
@@ -245,7 +271,7 @@ footer {
 
 .footer-content > .for {
     border-right: 1px solid white;
-    padding: 17px;
+    padding: 12px;
     text-align: center;
 }
 
